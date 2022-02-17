@@ -1,0 +1,14 @@
+STEP 1..MAKING A DIRECTORY
+-mk dir  (name of the folder)
+STEP 2 ..CHANGE DIRECTORY
+-cd (name of the folder)
+STEP 3 ..INITIALIZING A REPOSITORY
+-git init 
+STEP 4.. INITIALIZING A REPO ON GITHUB
+-4.1--creating a repo on GITHUB
+-4.2--copy the https link
+STEP 5..LINKING THE LOCAL REPO TO THE REMOTE REPO
+-git remote add origin (paste link here)
+-5.1--git remote
+STEP 6..CREATING NEW FOLDERS
+-touch name of file.
