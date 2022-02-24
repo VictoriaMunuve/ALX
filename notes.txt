@@ -1,9 +1,12 @@
 STEP 1..MAKING A DIRECTORY
 -mk dir  (name of the folder)
+
 STEP 2 ..CHANGE DIRECTORY
 -cd (name of the folder)
+
 STEP 3 ..INITIALIZING A REPOSITORY
 -git init 
+
 STEP 4.. INITIALIZING A REPO ON GITHUB
 -4.1--creating a repo on GITHUB
 -4.2--copy the https link
@@ -11,4 +14,16 @@ STEP 5..LINKING THE LOCAL REPO TO THE REMOTE REPO
 -git remote add origin (paste link here)
 -5.1--git remote
 STEP 6..CREATING NEW FOLDERS
--touch name of file.
+-touch name of file with the extension
+STEP 7--SAVING THE NEW FOLDER CREATED IN STEP 6
+-git add .
+or 
+-git add name of the file with the extension
+STEP 8--COMITTING THE CHANGES MADE
+-git commit -m "your message goes here"
+STEP 9--PUSHING
+-9.1 git push -u origin master
+- 9.2-git push
+STEP 10
+-every time you make a new file you start from step 6 to step 9.2 skipping 9.1
+
